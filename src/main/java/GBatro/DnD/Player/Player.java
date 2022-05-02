@@ -62,6 +62,19 @@ public class Player {
         this.level = level;
     }
 
+    public Player(String name, 
+                  String race, 
+                  String classType, 
+                  Integer maxHealth, 
+                  Integer level) {
+        this.name = name;
+        this.race = race;
+        this.classType = classType;
+        this.maxHealth = maxHealth;
+        this.health = maxHealth;
+        this.level = level;
+    }
+
     public Long getId(){
         return id;
     }
